@@ -1,0 +1,7 @@
+{
+    "name": "Python mode",
+    "uri": "gh:zedapp/python-mode",
+    "version": "0.1",
+    "description": "Python mode for Zed",
+    "files": []
+}
