@@ -40,6 +40,7 @@
                 },
                 "Tools:Check": {
                     scriptUrl: "./check.js",
+                    enableSemanticChecks: false,
                     inputs: {
                         text: true
                     }
