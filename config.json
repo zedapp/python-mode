@@ -19,7 +19,8 @@
                         regex: "class\\s+([a-zA-Z0-9_\\$]+)\\s*(\\(|:)",
                         symbolIndex: 1,
                         type: "type"
-                    }]
+                    }],
+                    sandbox: "index"
                 },
                 "Tools:Complete:Snippet": {
                     scriptUrl: "/default/command/snippet_completer.js",
@@ -36,14 +37,16 @@
                         "with": "with ${1}:\n\t${2}",
                         "def": "def ${1}(${2}):\n\t${3}",
                         "class": "class ${1}:\n\t${2}"
-                    }
+                    },
+                    sandbox: "complete"
                 },
                 "Tools:Check": {
                     scriptUrl: "./check.js",
                     enableSemanticChecks: false,
                     inputs: {
                         text: true
-                    }
+                    },
+                    sandbox: "check"
                 }
             },
             handlers: {
